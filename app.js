@@ -5,7 +5,7 @@
 	
 	app.config(['$routeProvider', function($routeProvider){
 		$routeProvider.otherwise({
-			redirectTo: '/#/home'
+			redirectTo: '/home'
 		});
 	}]);
 })();
